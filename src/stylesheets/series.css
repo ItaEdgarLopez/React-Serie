@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+
+
+.contenedor-serie{
+  width: 1170px;
+  height: 368px;
+  margin: 10px 10px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c59734;
+  box-shadow: 0 3px 13px 1px rgb(0, 0, 0 / 9);
+  border-radius: 30px;
+}
+
+.imagen-serie{
+  height: 70%;
+  width: auto;
+}
+
+.contenedor-text-serie{
+  color: rgba(16, 79, 150, 0.87);
+  text-align: center;
+  padding: 60px;
+  font-family: 'Inconsolata', monospace;
+  font-weight: 400;
+  line-height: 1.5rem;
+  font-weight: bold;
+
+}
+.nombre-serie{
+  font-size: 2.2rem;
+  color: rgba(51, 47, 47, 0.651);
+}
+
+.ficha-tecnica{
+  font-size: 1.3rem;
+  margin-top: 15px;
+  padding-bottom: 30px;
+  font-weight: bold;
+
+}
+
+.ficha{
+  color: rgb(255, 255, 255);
+  font-size: 1.3rem;
+
+}
+
+.sipnosis{
+  font-size: 1.1rem;
+  color: rgb(66, 62, 62);
+  text-align: justify;
+}
+
+
+@media (max-width: 600px) {
+  .contenedor-serie{ 
+    width: 100%;
+    height: 200px;
+    margin: 5px 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c59734;
+    box-shadow: 0 3px 13px 1px rgb(0, 0, 0 / 9);
+    border-radius: 30px;
+
+  }
+
+  .imagen-serie{
+    height: 50%;
+    width: auto;
+  }
+
+
+  .contenedor-text-serie{
+    color: rgba(16, 79, 150, 0.87);
+    text-align: center;
+    padding: 1px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 100;
+    line-height: 1.1rem;
+    font-weight: bold;
+  
+  }
+
+
+  .nombre-serie{
+    font-size: 1.7rem;
+    color: rgba(51, 47, 47, 0.651);
+  }
+  
+  .ficha-tecnica{
+    font-size: 1.1rem;
+    margin-top: 15px;
+    padding-bottom: 30px;
+    font-weight: bold;
+  
+  }
+  
+  .ficha{
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+  
+  }
+  
+  .sipnosis{
+    font-size: .9rem;
+    color: rgb(66, 62, 62);
+    text-align:justify;
+  }
+
+
+
+
+}

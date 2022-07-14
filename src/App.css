@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inconsolata:wght@500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-size: 18px;
+  background-color: #0d0e0f98;
+}
+
+h1{
+  color: #c59734;
+  max-width: 940px;
+  font-size: 4.5em;
+  font-family: 'Abril Fatface', cursive;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 40px 0;
+  
+}
+
+.App{
+  min-height: 100vh;
+  display: flex;
+  flex-wrap:wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.contendor-principal{
+  min-height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media (max-width: 600px) {
+
+  h1{
+    color: #c59734;
+    max-width: 110px;
+    font-size: 1.1em;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 10px 0;
+    
+  }
+  
+  .App{
+    min-height: 100vh;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .contendor-principal{
+    min-height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+}
