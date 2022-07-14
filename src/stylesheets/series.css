@@ -57,7 +57,7 @@
 @media (max-width: 600px) {
   .contenedor-serie{ 
     width: 100%;
-    height: 200px;
+    height: 180px;
     margin: 5px 5px 5px;
     display: flex;
     align-items: center;
@@ -69,7 +69,7 @@
   }
 
   .imagen-serie{
-    height: 50%;
+    height: 40%;
     width: auto;
   }
 
@@ -77,36 +77,33 @@
   .contenedor-text-serie{
     color: rgba(16, 79, 150, 0.87);
     text-align: center;
-    padding: 1px;
-    font-family: 'Inconsolata', monospace;
-    font-weight: 100;
-    line-height: 1.1rem;
+    padding: 10px;
+    line-height: 1rem;
     font-weight: bold;
-  
   }
 
 
   .nombre-serie{
-    font-size: 1.7rem;
+    font-size: 1rem;
     color: rgba(51, 47, 47, 0.651);
   }
   
   .ficha-tecnica{
-    font-size: 1.1rem;
-    margin-top: 15px;
-    padding-bottom: 30px;
+    font-size: .9rem;
+    margin-top: 2px;
+    padding-bottom: 5px;
     font-weight: bold;
   
   }
   
   .ficha{
     color: rgb(255, 255, 255);
-    font-size: 1.2rem;
+    font-size: 1rem;
   
   }
   
   .sipnosis{
-    font-size: .9rem;
+    font-size: .7rem;
     color: rgb(66, 62, 62);
     text-align:justify;
   }

@@ -42,26 +42,13 @@ h1{
 
   h1{
     color: #c59734;
-    max-width: 110px;
-    font-size: 1.1em;
-    font-family: 'Abril Fatface', cursive;
-    font-weight: 700;
-    line-height: 1.1;
-    margin: 10px 0;
+    font-size: .9em;
     
   }
   
-  .App{
-    min-height: 100vh;
-    display: flex;
-    flex-wrap:wrap;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
   
   .contendor-principal{
-    min-height: 70px;
+    min-height: 0px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
